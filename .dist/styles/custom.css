@@ -1,0 +1,28 @@
+.c-mb-15px-ch > * {
+    margin-bottom: 15px;
+}
+
+.c-bg-0-0-255-03 {
+    background-color: rgba(0, 0, 255, 0.3);
+}
+
+.c-bg-light-blue {
+    background-color: lightblue;
+}
+
+.fsf h1,p, {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.fsf input,label {
+    margin-bottom: ;
+}
+
+.form-group {
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
+}
+
+div {
+    margin-bottom: 25px;
+}
