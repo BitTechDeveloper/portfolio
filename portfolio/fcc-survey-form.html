@@ -30,8 +30,8 @@
                 Thank you for taking the time to help us improve the platform 
             </p>
             <form class="mx-auto col-sm-11 col-md-9 col-xl-7 px-5 py-4 c-bg-light-blue" id="survey-form">
-                <div class="row">
-
+                <fieldset class="Personalia row">
+                    <legend class="text-center">Personalia</legend>
                     <div class="col-sm-4">
                         <label class="form-label" for="name" id="name-label">Name</label>
                         <input class="form-control" type="text" name="name" id="name" placeholder="Enter your Name" required>
@@ -50,10 +50,10 @@
                             <input type="number" name="age" id="number" min="10" max="99" placeholder="Age">
                     </div>
                     
-                </div>
+                </fieldset>
 
                 <div class="row">
-                    <p class="col-sm">Which option best describes your current role?</p>
+                    <p class="col-sm-7 me-auto">Which option best describes your current role?</p>
                     <select class="col-sm h-100" name="role" id="dropdown" required>
                         <option disabled selected value=""></option>
                         <option value="student">student</option>
@@ -66,7 +66,7 @@
 
                 
                 <div class="row">
-                    <p class="col-sm">What is your favorite feature of freeCodeCamp? </p>
+                    <p class="col-sm-7 me-auto">What is your favorite feature of freeCodeCamp? </p>
                     <select class="col-sm h-100" name="most-like" id="most-like ">
                         <option disabled selected value="">
                             

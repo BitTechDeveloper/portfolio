@@ -10,3 +10,13 @@
     background-color: lightblue;
 }
 
+fieldset {
+    margin-bottom: 30px;
+}
+
+
+select,label,legend,input:not([type="checkbox"]):not([type="radio"]) {
+    margin-bottom: 20px;
+
+}
+
