@@ -15,8 +15,12 @@ fieldset {
 }
 
 
-select,label,legend,input:not([type="checkbox"]):not([type="radio"]) {
+select,legend,input:not([type="checkbox"]):not([type="radio"]) {
     margin-bottom: 20px;
 
 }
 
+
+input[type="checkbox"], input[type="radio"] {
+    margin-bottom: 10px;
+}
