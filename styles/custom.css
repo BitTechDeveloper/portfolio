@@ -10,6 +10,10 @@
     background-color: lightblue;
 }
 
+form {
+    margin-bottom: 20px;
+}
+
 fieldset {
     margin-bottom: 30px;
 }
@@ -24,3 +28,4 @@ select,legend,input:not([type="checkbox"]):not([type="radio"]) {
 input[type="checkbox"], input[type="radio"] {
     margin-bottom: 10px;
 }
+
