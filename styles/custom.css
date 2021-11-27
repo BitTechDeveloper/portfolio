@@ -1,3 +1,15 @@
+@media all and (min-width: 576px) {
+    .nav {
+        height: 60px;
+    }
+}
+.nav {
+    font-size: large;
+    font-weight: bolder;
+    background-color: rgba(255, 255, 0, 0.5);
+}
+
+
 .c-mb-15px-ch > * {
     margin-bottom: 15px;
 }
@@ -27,5 +39,17 @@ select,legend,input:not([type="checkbox"]):not([type="radio"]) {
 
 input[type="checkbox"], input[type="radio"] {
     margin-bottom: 10px;
+}
+
+
+li.nav-item {
+    margin-right: 0.5rem;
+    background-color: blue;
+    border-radius: 0.5rem;
+}
+
+
+.fa {
+    color: darkorange;
 }
 
