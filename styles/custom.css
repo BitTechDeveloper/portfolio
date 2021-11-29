@@ -1,8 +1,4 @@
-@media all and (min-width: 576px) {
-    .nav {
-        height: 60px;
-    }
-}
+
 .nav {
     font-size: large;
     font-weight: bolder;
