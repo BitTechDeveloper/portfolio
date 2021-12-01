@@ -1,17 +1,17 @@
 #header {
     position: -webkit-sticky;
     position: sticky;
-    top: 8px;
+    top: 0;
     z-index: 100;
 }
 
-.nav {
+.fcc-product-landing-page .nav {
     font-size: large;
     font-weight: bolder;
-    background-color: rgba(200, 200, 200, 0.7);
+    background-color: #f0f0f0;
 }
 
-.nav-link {
+.fcc-product-landing-page .nav-link {
     color: black;
 }
 
@@ -70,3 +70,56 @@ li.nav-item {
 .card-body, .card-header, .card-footer {
     border: 0.1px solid lightblue;
 }
+
+.side-nav ul li {
+    display: block;
+    width: 100%;
+    font-weight: bold;
+    background: #f0f0f0;
+    text-align: center;    
+}
+    
+
+.side-nav a {
+    color: black;
+    border-bottom: 1px solid black;
+
+}
+
+main.main-doc {
+    padding: 20px;
+}
+
+header {
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width: 600px) {
+
+    .side-nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 90%;
+        overflow-x: hidden;
+        overflow-y: auto;
+        width: 200px;
+        border: 1px solid gray;
+        border-bottom: none;
+        border-top: none;
+        margin-top: 40px;
+    }
+
+    .side-nav ul {
+        width: 100%;
+    }
+
+    main.main-doc {
+        margin-left: 200px;
+    }
+    
+}
+*/
