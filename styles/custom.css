@@ -88,13 +88,17 @@ li.nav-item {
 
 main.main-doc {
     padding: 20px;
+    margin-top: 40px;
 }
 
-header {
+.fcc-technical-doc-page header {
     font-size: large;
     font-weight: bold;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: darkcyan;
+    background: #e0e0e0;
 }
 
 @media screen and (min-width: 600px) {
