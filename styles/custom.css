@@ -1,31 +1,13 @@
-#header {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    z-index: 100;
-}
 
-.fcc-product-landing-page .nav {
-    font-size: large;
-    font-weight: bolder;
-    background-color: #f0f0f0;
-}
 
-.fcc-product-landing-page .nav-link {
-    color: black;
-}
+
+/*                        fcc-tribute-page                                  */
 
 .c-mb-15px-ch > * {
     margin-bottom: 15px;
 }
 
-.c-bg-0-0-255-03 {
-    background-color: rgba(0, 0, 255, 0.3);
-}
-
-.c-bg-light-blue {
-    background-color: lightblue;
-}
+/*                        fcc-survey-form                                   */
 
 form {
     margin-bottom: 20px;
@@ -45,6 +27,37 @@ select,legend,input:not([type="checkbox"]):not([type="radio"]) {
 input[type="checkbox"], input[type="radio"] {
     margin-bottom: 10px;
 }
+
+
+/*                        fcc-product-landing-page                          */
+
+#header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.fcc-product-landing-page .nav {
+    font-size: large;
+    font-weight: bolder;
+    background-color: #ccc;
+    z-index: 100;
+}
+
+.fcc-product-landing-page .nav-link {
+    color: black;
+}
+
+
+.c-bg-0-0-255-03 {
+    background-color: rgba(0, 0, 255, 0.3);
+}
+
+.c-bg-light-blue {
+    background-color: lightblue;
+}
+
 
 
 li.nav-item {
@@ -68,6 +81,10 @@ li.nav-item {
 .card-body, .card-header, .card-footer {
     border: 0.1px solid lightblue;
 }
+
+
+/*                     fcc-technical-documentation-page                         */
+
 
 .side-nav ul li {
     display: block;
@@ -126,26 +143,16 @@ main.main-doc {
 }
 
 
-
-    .side-nav ul {
-        width: 100%;
-    }
-
-    main.main-doc {
-        margin-left: 200px;
-    }
+  .side-nav ul {
+      width: 100%;
+  }
     
 
 
+  
+/*                     fcc-personel-portfolio-page                          */
 
-    .side-nav ul {
-        width: 100%;
-    }
 
-    main.main-doc {
-        margin-left: 200px;
-    }
-    
 body.portfolio {
     overflow-x: hidden;
 }
@@ -156,7 +163,7 @@ body.portfolio {
     top: 0;
     right: 20px;
     left: 0;
-    
+    z-index: 100;
     width: 100%;
     margin-left: 0;
     margin-right: 20px;
@@ -197,7 +204,7 @@ body.portfolio {
     height: 100vh;
     text-align: center;
     background-color: #000;
-    padding-top: 200px;
+    padding-top: 15%;
     color: #0ff;
     margin-left: -20px;
     margin-right: -20px;
@@ -205,10 +212,10 @@ body.portfolio {
 
 .welcome-section h1 {
     color: #fff;
-    font-size: 100px;
+    font-size: 5rem;
 }
 .welcome-section p {
-    font-size: 50px;
+    font-size: 3rem;
 }
 
 .projects-section {
